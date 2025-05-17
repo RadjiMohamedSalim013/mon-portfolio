@@ -18,7 +18,7 @@ export default function AboutSection() {
         </div>
         <div>
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
-            Passionné par <span className="text-blue-600">l'innovation technologique</span>
+            Passionné par <span className="text-blue-600">l{'\''}innovation technologique</span>
           </h2>
           <p className="text-lg text-gray-600 mb-6">
             Je conçois des solutions web claires, fiables et adaptées aux besoins des utilisateurs. 

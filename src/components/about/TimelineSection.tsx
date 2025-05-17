@@ -1,5 +1,5 @@
 'use client'
-import { FaGraduationCap, FaBriefcase } from 'react-icons/fa'
+import { FaGraduationCap,  } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
 export default function TimelineSection() {

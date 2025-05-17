@@ -1,5 +1,5 @@
 import { ReactElement } from 'react'
-import { FaCode, FaPalette, FaRobot, FaLightbulb, FaBriefcase } from 'react-icons/fa'
+import { FaCode, FaPalette, FaRobot, FaLightbulb} from 'react-icons/fa'
 
 export type SkillCategory = {
   title: string

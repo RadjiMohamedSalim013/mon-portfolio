@@ -10,7 +10,7 @@ export default function HeroSection() {
         transition={{ duration: 0.6 }}
         className="text-4xl md:text-5xl font-bold text-gray-900 mb-6"
       >
-        Passionné par le <span className="text-blue-600">développement</span> et l'<span className="text-blue-600">innovation</span>
+        Passionné par le <span className="text-blue-600">développement</span> et l{'\''}<span className="text-blue-600">innovation</span>
       </motion.h1>
       
       <motion.p
@@ -19,7 +19,7 @@ export default function HeroSection() {
         transition={{ duration: 0.6, delay: 0.2 }}
         className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
       >
-        Je crée des expériences digitales qui marient performance technique et élégance visuelle, avec une approche centrée sur l'utilisateur.
+        Je crée des expériences digitales qui marient performance technique et élégance visuelle, avec une approche centrée sur l{'\''}utilisateur.
       </motion.p>
     </section>
   )

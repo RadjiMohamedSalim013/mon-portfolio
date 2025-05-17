@@ -69,7 +69,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900">Localisation</h3>
-                  <p className="text-gray-600">Abidjan, Côte d'Ivoire</p>
+                  <p className="text-gray-600">Abidjan, Côte d{'\''}Ivoire</p>
                 </div>
               </div>
 

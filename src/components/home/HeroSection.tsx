@@ -30,7 +30,7 @@ export default function HeroSection() {
         </h1>
 
         <h2 className="inline-block text-xl md:text-2xl font-semibold text-white mb-8 px-4 py-2 rounded-lg bg-black/30 backdrop-blur-sm border border-white/10">
-          Développeur Full-Stack | Créateur d'expériences digitales
+          Développeur Full-Stack | Créateur d{'\''}expériences digitales
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
