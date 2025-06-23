@@ -5,34 +5,33 @@ import { FaArrowRight, FaGithub, FaExternalLinkAlt, FaTools } from 'react-icons/
 
 export default function ProjectsSection() {
   const projects = [
-     {
-    id: 1,
-    titre: "ProxiTalents",
-    description: "ProxiTalent est une plateforme web dédiée à la mise en relation de talents et d'entreprises .",
-    image: "/web/ProxiTalent.jpg",
-    techno: ["MERN",  "Tailwind", 'HTML', 'MongoDB'],
-    lien: "https://proxitalents-frontend.onrender.com",
-    categorie: "web"
+    {
+      id: 1,
+      titre: "ProxiTalents",
+      description: "ProxiTalent est une plateforme web dédiée à la mise en relation de talents et d'entreprises .",
+      image: "/web/ProxiTalent.jpg",
+      techno: ["MERN",  "Tailwind", 'HTML', 'MongoDB'],
+      lien: "https://proxitalents-frontend.onrender.com",
+      categorie: "web"
     },
     {
-    id: 2,
-    titre: "Affiche Rentrée Scolaire",
-    description: "Conception d'affiche sans le cadre de la rentrée scolaire 2024-2025 pour une Assocation Islamique",
-    image: "/affiche/jfsiscolaire.png",
-    techno: ["canva"],
-    lien: "https://drive.google.com/file/d/1XzxQQdP9MoobpQMpZtelJtaVS64W0tvP/view?usp=sharing",
-    categorie: "design"
-  },
+      id: 2,
+      titre: "Affiche Rentrée Scolaire",
+      description: "Conception d'affiche sans le cadre de la rentrée scolaire 2024-2025 pour une Assocation Islamique",
+      image: "/affiche/jfsiscolaire.png",
+      techno: ["canva"],
+      lien: "https://drive.google.com/file/d/1XzxQQdP9MoobpQMpZtelJtaVS64W0tvP/view?usp=sharing",
+      categorie: "design"
+    },
     {
-    id: 3,
-    titre: "TodoApp",
-    description: " Cette application permet aux utilisateurs de créer, lire, mettre à jour et supprimer des tâches avec une interface propre et réactive.",
-    image: "/web/TodoApp.jpg",
-    techno: ["React", "Node.js", "MongoDB"],
-    lien: "https://todoappnext.onrender.com",
-    categorie: "web"
-  },
-    
+      id: 3,
+      titre: "TodoApp",
+      description: " Cette application permet aux utilisateurs de créer, lire, mettre à jour et supprimer des tâches avec une interface propre et réactive.",
+      image: "/web/TodoApp.jpg",
+      techno: ["React", "Node.js", "MongoDB"],
+      lien: "https://todoappnext.onrender.com",
+      categorie: "web"
+    },
   ]
 
   return (
@@ -85,16 +84,7 @@ export default function ProjectsSection() {
               {/* Actions */}
               <div className="px-6 pb-6 pt-2 border-t border-gray-100">
                 <div className="flex justify-between items-center">
-                  {project.githubLink && (
-                    <a 
-                      href={project.githubLink} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center text-gray-700 hover:text-blue-600 transition-colors"
-                    >
-                      <FaGithub className="mr-2" /> Code
-                    </a>
-                  )}
+
                   <a 
                     href={project.lien} 
                     target="_blank" 
