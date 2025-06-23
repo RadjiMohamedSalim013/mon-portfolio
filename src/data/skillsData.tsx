@@ -30,13 +30,13 @@ const skillsCategories: SkillCategory[] = [
   { 
     title: 'Backend', 
     icon: <FaCode className="text-2xl text-blue-500" />,
-    skills: ['Node.js', 'Express', 'Flask', 'MongoDB', 'SQL'],
+    skills: ['Node.js', 'Express', 'Flask', 'MongoDB', ],
     color: 'bg-yellow-50'
   },
   { 
-    title: 'No-Code', 
+    title: 'Burreautique', 
     icon: <FaLightbulb className="text-2xl text-blue-500" />,
-    skills: ['Glide', 'Airtable', 'Wix', 'Wordpress'],
+    skills: ['Word', 'Excel', ],
     color: 'bg-red-50'
   },
  

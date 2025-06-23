@@ -6,8 +6,8 @@ type Etape = {
 }
 
 const parcours: Etape[] = [
-  { annee: '2025 - aujourd’hui', titre: 'Etudiant en Développement Web - UVCI' },
-  { annee: '2021 - 2023', titre: 'Licence en Informatique - Université de XYZ' },
+  { annee: '2025 ', titre: 'Etudiant en Licence 3 Informatique Science du Numérique a l\'université virtuelle de cote d\'ivoire - UVCI' },
+  { annee: '2025- en cours', titre: 'Certification Developpeur Fullstack chez GOYMACODE' },
   { annee: '2020 - 2021', titre: 'Stage en développement front-end chez ABC Agency' },
 ]
 

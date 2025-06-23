@@ -5,33 +5,34 @@ import { FaArrowRight, FaGithub, FaExternalLinkAlt, FaTools } from 'react-icons/
 
 export default function ProjectsSection() {
   const projects = [
-    {
-      id: 1,
-      title: "Application E-commerce",
-      description: "Plateforme complète de vente en ligne avec paiement sécurisé, gestion de stock et tableau de bord admin.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "/project-1.jpg",
-      githubLink: "#",
-      liveLink: "#"
+     {
+    id: 1,
+    titre: "ProxiTalents",
+    description: "ProxiTalent est une plateforme web dédiée à la mise en relation de talents et d'entreprises .",
+    image: "/web/ProxiTalent.jpg",
+    techno: ["MERN",  "Tailwind", 'HTML', 'MongoDB'],
+    lien: "https://proxitalents-frontend.onrender.com",
+    categorie: "web"
     },
     {
-      id: 2,
-      title: "Réseau Social",
-      description: "Application de réseau social avec fonctionnalités de publication, commentaires et chat en temps réel.",
-      technologies: ["Next.js", "Firebase", "Tailwind CSS"],
-      image: "/project-2.jpg",
-      githubLink: "#",
-      liveLink: "#"
-    },
+    id: 2,
+    titre: "Affiche Rentrée Scolaire",
+    description: "Conception d'affiche sans le cadre de la rentrée scolaire 2024-2025 pour une Assocation Islamique",
+    image: "/affiche/jfsiscolaire.png",
+    techno: ["canva"],
+    lien: "https://drive.google.com/file/d/1XzxQQdP9MoobpQMpZtelJtaVS64W0tvP/view?usp=sharing",
+    categorie: "design"
+  },
     {
-      id: 3,
-      title: "Dashboard Analytique",
-      description: "Outil de visualisation de données avec graphiques interactifs et export de rapports.",
-      technologies: ["TypeScript", "D3.js", "Express"],
-      image: "/project-3.jpg",
-      githubLink: "#",
-      liveLink: "#"
-    }
+    id: 3,
+    titre: "TodoApp",
+    description: " Cette application permet aux utilisateurs de créer, lire, mettre à jour et supprimer des tâches avec une interface propre et réactive.",
+    image: "/web/TodoApp.jpg",
+    techno: ["React", "Node.js", "MongoDB"],
+    lien: "https://todoappnext.onrender.com",
+    categorie: "web"
+  },
+    
   ]
 
   return (
@@ -53,7 +54,7 @@ export default function ProjectsSection() {
               <div className="relative h-48 overflow-hidden">
                 <Image
                   src={project.image}
-                  alt={project.title}
+                  alt={project.titre}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform"
                 />
@@ -62,7 +63,7 @@ export default function ProjectsSection() {
 
               {/* Contenu texte */}
               <div className="p-6 flex-grow">
-                <h3 className="text-xl font-bold text-gray-800 mb-2">{project.title}</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-2">{project.titre}</h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 
                 {/* Technologies utilisées */}
@@ -72,7 +73,7 @@ export default function ProjectsSection() {
                     <span className="font-medium">Technologies :</span>
                   </div>
                   <div className="flex flex-wrap gap-2">
-                    {project.technologies.map((tech, index) => (
+                    {project.techno.map((tech, index) => (
                       <span key={index} className="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">
                         {tech}
                       </span>
@@ -84,16 +85,18 @@ export default function ProjectsSection() {
               {/* Actions */}
               <div className="px-6 pb-6 pt-2 border-t border-gray-100">
                 <div className="flex justify-between items-center">
+                  {project.githubLink && (
+                    <a 
+                      href={project.githubLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center text-gray-700 hover:text-blue-600 transition-colors"
+                    >
+                      <FaGithub className="mr-2" /> Code
+                    </a>
+                  )}
                   <a 
-                    href={project.githubLink} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="flex items-center text-gray-700 hover:text-blue-600 transition-colors"
-                  >
-                    <FaGithub className="mr-2" /> Code
-                  </a>
-                  <a 
-                    href={project.liveLink} 
+                    href={project.lien} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors"

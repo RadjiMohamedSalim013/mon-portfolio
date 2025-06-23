@@ -43,10 +43,10 @@ export default function HeroSection() {
         </div>
 
         <div className="flex justify-center space-x-4">
-          <a href="#" className="bg-black/40 hover:bg-black/60 text-white p-3 rounded-full transition-all backdrop-blur-sm border border-white/10">
+          <a href="https://github.com/RadjiMohamedSalim013" className="bg-black/40 hover:bg-black/60 text-white p-3 rounded-full transition-all backdrop-blur-sm border border-white/10">
             <FaGithub size={20} />
           </a>
-          <a href="#" className="bg-black/40 hover:bg-black/60 text-white p-3 rounded-full transition-all backdrop-blur-sm border border-white/10">
+          <a href="www.linkedin.com/in/mohamed-salim-radji-0496b4257" className="bg-black/40 hover:bg-black/60 text-white p-3 rounded-full transition-all backdrop-blur-sm border border-white/10">
             <FaLinkedin size={20} />
           </a>
         </div>

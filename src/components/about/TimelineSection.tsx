@@ -5,13 +5,13 @@ import { motion } from 'framer-motion'
 export default function TimelineSection() {
   const timelineItems = [
     { 
-      year: '2025 - Aujourd\'hui', 
+      year: '2025 - en cours', 
       title: 'Université Virtuelle de Cote d\'Ivoire', 
       icon: <FaGraduationCap className="text-blue-500" />,
       description: 'Licence 3: Developpement D\'applications et e-services'
     },
     { 
-      year: '2025- Aujourd\'hui', 
+      year: '2025- en cours', 
       title: 'GOYMACODE', 
       icon: <FaGraduationCap className="text-blue-500" />,
       description: 'certification Developpeur Fullstask'

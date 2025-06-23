@@ -9,7 +9,7 @@ export default function AboutSection() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <Image
-            src="/profil.jpg" // Tu peux remplacer par /about-image.jpg si tu veux une autre image
+            src="/profil.jpg" 
             alt="À propos de moi"
             width={600}
             height={400}
