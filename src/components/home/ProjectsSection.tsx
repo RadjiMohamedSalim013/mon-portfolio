@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FaArrowRight, FaGithub, FaExternalLinkAlt, FaTools } from 'react-icons/fa'
+import { FaArrowRight,  FaExternalLinkAlt, FaTools } from 'react-icons/fa'
 
 export default function ProjectsSection() {
   const projects = [
